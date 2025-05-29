@@ -33,13 +33,12 @@ Currently, ToDoListBot supports the following commands:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git)
-    cd YOUR_REPOSITORY_NAME
+    git clone [https://github.com/doggoodeity/Discord-ToDoList-Bot.git]
+    cd Discord-ToDoList-Bot
     ```
-    (Replace `YOUR_USERNAME` and `YOUR_REPOSITORY_NAME` with your actual GitHub username and repository name)
 
 2.  **Configure Bot Token:**
-    * Navigate to `src/main/java/.../MainBot.java` (replace `...` with your package structure).
+    * Navigate to `src/main/java/MainBot.java`.
     * Find the line:
         ```java
         String botToken = "YOUR_DISCORD_BOT_TOKEN_HERE"; // Or your current token
